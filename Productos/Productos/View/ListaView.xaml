@@ -16,7 +16,7 @@
                     x:Name="searchBar"
                     Text="{Binding Filter, Mode=TwoWay}"
                     SearchCommand="{Binding SearchCommand}"
-                    Placeholder="Buscar Producto"
+                    Placeholder="Agregar Producto"
                     />
                 <!--Grid>
                     <Grid.RowDefinitions>
