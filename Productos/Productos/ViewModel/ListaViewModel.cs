@@ -179,7 +179,7 @@ namespace Productos.ViewModel
             else
             {
                 _pProducto.Remove(contenido);
-                await App.Current.MainPage.DisplayAlert("Error", "Elemento eliminado de la lista " + contenido.Nombre, "ok");
+                await App.Current.MainPage.DisplayAlert("Infomación", "Elemento eliminado de la lista " + contenido.Nombre, "ok");
                 PedidoProducto = new ObservableCollection<Producto>(_pProducto.OrderBy(p => p.Codigo));
             }
         }

@@ -141,7 +141,7 @@
                                                 Source="editicon.png"
                                                 HorizontalOptions="Start"
                                                 BackgroundColor="Transparent" /-->
-                                            <!--Image
+                                            <Image
                                                 HorizontalOptions="End"
                                                 Grid.Column="3" 
                                                 WidthRequest="40"
@@ -155,7 +155,7 @@
                                                         Source={x:Reference myListPedidoProducto}}" 
                                                                           CommandParameter="{Binding .}"/>
                                                 </Image.GestureRecognizers>
-                                            </-->
+                                            </Image>
                                         </Grid>
                                     </ViewCell>
                                 </DataTemplate>
